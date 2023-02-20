@@ -65,13 +65,13 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #b2f108;
-  --bs-secondary: #00225a;
+  --bs-secondary: #0b0b0b;
   --bs-success: #146c43;
   --bs-danger: #dc3545;
   --bs-warning: #ffc107;
   --bs-info: #0dcaf0;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-dark: #0a0b0b;
   --bs-primary-rgb: 255, 94, 19;
   --bs-secondary-rgb: 0, 34, 90;
   --bs-success-rgb: 20, 108, 67;
@@ -17509,7 +17509,7 @@ input[type=checkbox]:checked + label:after {
   }
 }
 .header-logo-wrap {
-  background-color: #fff;
+  background-color: black;
   width: 28%;
   height: 100%;
   position: absolute;
