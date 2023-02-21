@@ -80,7 +80,7 @@ textarea,
     }
 }
 h1, h2, h3, h4, h5, h6{
-    color: #fff;
+    color: #000000;
     
 }
 p{
@@ -388,7 +388,7 @@ img {
 /* ---Text Color--- */
 .text-white{
     *{
-        color: $white;
+        color: $primary;
     }
 }
 .text-primary{
@@ -476,6 +476,7 @@ img {
         }
         h2{
             font-size: 60px;
+            color: #000000;
             line-height: 60px;
             max-width: 425px;
             @include media-breakpoint-down(sm){

@@ -104,7 +104,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #b2f108;
-  --bs-link-hover-color: #cc4b0f;
+  --bs-link-hover-color: #000000;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -149,7 +149,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #00225a;
+  color: #000000;
 }
 
 h1, .h1 {
@@ -3629,8 +3629,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #00225a;
-  --bs-btn-border-color: #00225a;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #001d4d;
   --bs-btn-hover-border-color: #001b48;
@@ -3640,8 +3640,8 @@ textarea.form-control-lg {
   --bs-btn-active-border-color: #001a44;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #00225a;
-  --bs-btn-disabled-border-color: #00225a;
+  --bs-btn-disabled-bg: #000000;
+  --bs-btn-disabled-border-color: #000000;
 }
 
 .btn-success {
@@ -3764,19 +3764,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  --bs-btn-color: #00225a;
-  --bs-btn-border-color: #00225a;
+  --bs-btn-color: #000000;
+  --bs-btn-border-color: #000000;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #00225a;
-  --bs-btn-hover-border-color: #00225a;
+  --bs-btn-hover-bg: #000000;
+  --bs-btn-hover-border-color: #000000;
   --bs-btn-focus-shadow-rgb: 0, 34, 90;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #00225a;
-  --bs-btn-active-border-color: #00225a;
+  --bs-btn-active-bg: #000000;
+  --bs-btn-active-border-color: #000000;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #00225a;
+  --bs-btn-disabled-color: #000000;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #00225a;
+  --bs-btn-disabled-border-color: #000000;
   --bs-gradient: none;
 }
 
@@ -6839,7 +6839,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
-  --bs-popover-header-color: #00225a;
+  --bs-popover-header-color: #000000;
   --bs-popover-header-bg: #f0f0f0;
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
@@ -8168,7 +8168,7 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-  color: #00225a !important;
+  color: #000000 !important;
 }
 .link-secondary:hover, .link-secondary:focus {
   color: #001b48 !important;
@@ -10292,7 +10292,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #b2f108 !important;
 }
 
 .text-secondary {
@@ -16085,11 +16085,11 @@ body {
 }
 
 body {
-  color: #00225a;
+  color: #000000;
 }
 
 a {
-  color: #00225a;
+  color: #000000;
   text-decoration: none;
 }
 a:hover {
@@ -16143,7 +16143,7 @@ textarea,
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: #00225a;
+  color: #000000;
 }
 
 p {
@@ -16582,7 +16582,7 @@ img {
 
 /* ---Text Color--- */
 .text-white * {
-  color: #fff;
+  color: #b2f108;
 }
 
 .text-primary * {
@@ -16590,7 +16590,7 @@ img {
 }
 
 .text-secondary * {
-  color: #00225a;
+  color: #000000;
 }
 
 .text-hawkes-blue * {
@@ -16815,8 +16815,8 @@ img {
   color: #fff;
 }
 .btn-secondary-hover.btn:hover {
-  background-color: #00225a;
-  border-color: #00225a;
+  background-color: #000000;
+  border-color: #000000;
   color: #fff;
 }
 .btn-project {
@@ -16872,11 +16872,11 @@ img {
 .btn-white-hover.btn:hover {
   background-color: #f8f9fa;
   border-color: #f8f9fa;
-  color: #00225a;
+  color: #000000;
 }
 .btn-dark-hover.btn:hover {
-  background-color: #00225a;
-  border-color: #00225a;
+  background-color: #000000;
+  border-color: #000000;
   color: #fff;
 }
 
@@ -17002,7 +17002,7 @@ blockquote .user-name:after {
   border-bottom-right-radius: 25px;
 }
 .price-filter .ui-slider-range {
-  background-color: #00225a;
+  background-color: #000000;
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -17084,7 +17084,7 @@ blockquote .user-name:after {
   height: 46px;
   text-align: center;
   width: 48px;
-  background: #00225a;
+  background: #000000;
   color: #fff;
 }
 .quantity .cart-plus-minus .qtybutton {
@@ -17190,7 +17190,7 @@ input[type=checkbox]:checked + label:after {
 
 /*-- Scroll To Top --*/
 .scroll-to-top {
-  background-color: #00225a;
+  background-color: #000000;
   color: #fff;
   position: fixed;
   right: 50px;
@@ -17308,7 +17308,7 @@ input[type=checkbox]:checked + label:after {
   margin-right: 15px;
 }
 .header-top-right ul li .minicart-count span.quantity {
-  background-color: #00225a;
+  background-color: #000000;
   border-radius: 100%;
   text-align: center;
   font-size: 14px;
@@ -17495,7 +17495,7 @@ input[type=checkbox]:checked + label:after {
   color: #b2f108;
 }
 .drop-menu > li a {
-  color: #00225a;
+  color: #000000;
 }
 
 /* ---Header Logo--- */
@@ -17553,7 +17553,7 @@ input[type=checkbox]:checked + label:after {
           box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2) !important;
   padding-right: 70px;
   padding-left: 20px;
-  color: #00225a;
+  color: #000000;
   height: 50px;
   border: 0;
 }
@@ -17597,7 +17597,7 @@ input[type=checkbox]:checked + label:after {
   z-index: 2;
 }
 .transparent-header.sticky {
-  background-color: #00225a;
+  background-color: #000000;
 }
 
 /* ---Header Sticky--- */
@@ -17790,8 +17790,8 @@ input[type=checkbox]:checked + label:after {
   z-index: 2;
 }
 .custom-button-prev:hover, .custom-button-next:hover {
-  background-color: #00225a;
-  border-color: #00225a;
+  background-color: #000000;
+  border-color: #000000;
 }
 .custom-button-prev:hover i, .custom-button-next:hover i {
   color: #fff;
@@ -18277,7 +18277,7 @@ input[type=checkbox]:checked + label:after {
   }
 }
 .banner-style-3 .banner-secondary-bg:before, .banner-style-3 .banner-primary-bg:before {
-  background-color: #00225a;
+  background-color: #000000;
   width: 100%;
   height: 100%;
   content: "";
@@ -18359,7 +18359,7 @@ input[type=checkbox]:checked + label:after {
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
-  background-color: #00225a;
+  background-color: #000000;
   position: absolute;
   width: 415px;
   bottom: -50px;
@@ -18759,7 +18759,7 @@ input[type=checkbox]:checked + label:after {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  color: #00225a;
+  color: #000000;
   font-size: 30px;
 }
 @media (max-width: 479px) {
@@ -18818,7 +18818,7 @@ input[type=checkbox]:checked + label:after {
   width: 100%;
 }
 .service-img .add-action {
-  background-color: #00225a;
+  background-color: #000000;
   padding: 20px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -18941,7 +18941,7 @@ input[type=checkbox]:checked + label:after {
   background-color: #b2f108;
 }
 .team-item:hover .team-img .add-action li.mail-wrap i {
-  background-color: #00225a;
+  background-color: #000000;
 }
 .team-img {
   position: relative;
@@ -18953,7 +18953,7 @@ input[type=checkbox]:checked + label:after {
   z-index: 2;
 }
 .team-img:before {
-  background-color: #00225a;
+  background-color: #000000;
   position: absolute;
   content: "";
   width: 100%;
@@ -18968,7 +18968,7 @@ input[type=checkbox]:checked + label:after {
   transition: all 0.3s ease 0s;
 }
 .team-img .add-action {
-  background-color: #00225a;
+  background-color: #000000;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -19062,7 +19062,7 @@ input[type=checkbox]:checked + label:after {
           transition-delay: 200ms;
 }
 .team-social-link-wrap .social-link li a {
-  background-color: #00225a;
+  background-color: #000000;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -19292,7 +19292,7 @@ input[type=checkbox]:checked + label:after {
   color: #8d8f92;
 }
 .blog-comment-content .btn-link {
-  color: #00225a;
+  color: #000000;
 }
 .blog-comment-content .btn-link:hover {
   color: #b2f108;
@@ -19595,7 +19595,7 @@ input[type=checkbox]:checked + label:after {
   display: block;
 }
 .sidebar-categories {
-  background-color: #00225a;
+  background-color: #000000;
 }
 .sidebar-categories .title {
   border-bottom: 1px solid #5b749a;
@@ -19634,7 +19634,7 @@ input[type=checkbox]:checked + label:after {
   border-bottom: 1px solid #ffdac8;
 }
 .sidebar-download-brochure ul li:hover a {
-  background-color: #00225a;
+  background-color: #000000;
   color: #fff;
 }
 .sidebar-banner {
@@ -19690,7 +19690,7 @@ input[type=checkbox]:checked + label:after {
   line-height: 30px;
 }
 .sidebar-banner .inner-content .offer {
-  border-left: 2px solid #00225a;
+  border-left: 2px solid #000000;
   padding-left: 15px;
 }
 .sidebar-title {
@@ -19700,7 +19700,7 @@ input[type=checkbox]:checked + label:after {
   font-weight: 600;
 }
 .sidebar-title:before {
-  background-color: #00225a;
+  background-color: #000000;
   content: "";
   width: 100%;
   height: 1px;
@@ -19931,8 +19931,8 @@ input[type=checkbox]:checked + label:after {
   }
 }
 .product-detail-tab ul li a.nav-link.active {
-  background-color: #00225a;
-  border-color: #00225a;
+  background-color: #000000;
+  border-color: #000000;
 }
 .product-detail-tab ul li:last-child a.nav-link {
   border-right: 1px solid #dee2e6;
@@ -20213,7 +20213,7 @@ input[type=checkbox]:checked + label:after {
   float: right;
 }
 .cart-page-total a {
-  background-color: #00225a;
+  background-color: #000000;
   border: 1px solid #dee2e6;
   color: #fff;
   display: inline-block;
@@ -20316,7 +20316,7 @@ input[type=checkbox]:checked + label:after {
 .table-content table td.cart_btn a {
   font-size: 14px;
   text-transform: uppercase;
-  background: #00225a;
+  background: #000000;
   color: #fff;
   height: 40px;
   line-height: 43px;
@@ -20438,7 +20438,7 @@ input[type=checkbox]:checked + label:after {
   width: 170px;
 }
 .coupon-checkout-content .coupon-info .checkout-coupon input[type=submit] {
-  background: #00225a;
+  background: #000000;
   border: medium none;
   border-radius: 0;
   color: #fff;
